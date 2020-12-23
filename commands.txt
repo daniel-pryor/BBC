@@ -1,0 +1,8 @@
+git status -- see what's changesd
+git pull -- get other peoples' changes
+git add . -- stage all the changes to push
+git commit -m "blah" -- add the message and commit for pushing
+git push
+
+
+normally you can just do add, comiit, push

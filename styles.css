@@ -65,6 +65,7 @@ main {
 .banner-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   
 }
 
@@ -73,6 +74,8 @@ main {
   margin: 0 auto;
   padding-top: 60px;
   flex-basis: 100%;
+  
+
 }
 
 .title {
@@ -89,6 +92,7 @@ main {
   display: flex;
   margin: 100px;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .shop img {
@@ -163,8 +167,17 @@ footer a {
 
 
 @media (max-width: 680px) {
+ 
   .card {
     max-width: 70%;
     margin: 20px auto;
+  }
+
+  .logo {
+   
+  }
+
+  .nav ul {
+   
   }
 }
