@@ -1,0 +1,170 @@
+
+
+/* Universal Styles */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    list-style-type: none;
+    
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+  Font-Family: 'Monda', Sans-Serif;
+  Font-Size: 16px;
+  padding: 10px;
+} 
+
+a:hover {
+  color: rgba(0, 0, 0, 0.397);
+  cursor: pointer;
+}
+
+p {  Font-Family: 'Monda', Sans-Serif;
+  Font-Size: 16px;
+}
+
+/* Header Section */
+
+
+.nav-container {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 15px;
+   
+}
+
+
+
+.nav {
+    Font-Family: 'Julius Sans One', Sans-Serif;
+    Font-Size: 20px;
+}
+
+.nav li {
+  padding-right: 15px;
+  display: inline;
+}
+
+.logo {
+    height: 60px;
+    opacity: .9;
+}
+
+  /* Main Section */ 
+
+main {
+  width: 100%;
+}
+
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
+  flex-basis: 100%;
+}
+
+.title {
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 1.5px;
+  padding: 60px 10px 0px 10px;
+  margin: 0px auto;
+}
+
+.shop {
+  display: flex;
+  margin: 100px;
+  justify-content: center;
+}
+
+.shop img {
+  max-width: 400px;
+  
+}
+
+.team-title {
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  font-size: 28px;
+  text-align: center;
+  margin: 40px;
+}
+
+.team {
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  text-align: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.card {
+  max-width: 300px;
+  margin: 20px;
+  background-color: rgba(185, 185, 185, 0.177);
+  border-radius: 2px;
+}
+
+.card img {
+  width: 100%;
+
+}
+
+#unicorn:hover {
+  color: rgb(255, 117, 140);
+  box-shadow: 5px 10px rgba(255, 117, 140, 0.384);
+}
+
+#orange:hover {
+  color: rgb(206, 136, 7);
+  box-shadow: 5px 10px rgba(206, 136, 7, 0.39);
+}
+
+#green:hover {
+  color: rgb(66, 150, 41);
+  box-shadow: 5px 10px rgba(66, 150, 41, 0.37);
+}
+
+#blue:hover {
+  color: rgba(6, 122, 255, 0.938);
+  box-shadow: 5px 10px rgba(6, 122, 255, 0.37);
+}
+/*footer section*/
+
+footer {
+  background-color: rgba(185, 185, 185, 0.177);
+  text-align: center;
+  padding: 5px;
+}
+
+footer a {
+  display: block;
+}
+
+
+/* responsive */ 
+
+
+@media (max-width: 680px) {
+  .card {
+    max-width: 70%;
+    margin: 20px auto;
+  }
+}
